@@ -1,0 +1,29 @@
+h1 {
+  color: red;
+  font-family: sans-serif;
+  font-size: 72px;
+  margin-top: 0;
+  margin-bottom: .125em;
+  text-align: center;
+}
+
+p {
+  background: yellow;
+}
+
+figure {
+  border: 5px solid black;
+  padding: 30 px
+}
+
+figure img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 12px;
+}
+
+body {
+  color: orange;
+  font-family: sans-serif;
+  font-size: 24px;
+}
