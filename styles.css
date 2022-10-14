@@ -23,7 +23,35 @@ figure img {
 }
 
 body {
-  color: orange;
+  color: Green;
   font-family: sans-serif;
   font-size: 24px;
+}
+
+nav ul {
+  background-color: PaleGreen;
+  display: inline-block;
+  list-style: none;
+  padding-left: 0;
+  border: 5px solid DarkGreen;
+}
+
+nav ul li {
+
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  padding: 8px;
+  border-bottom: 1px solid DarkGreen;
+  display: block;
+}
+
+nav ul li a:hover {
+  background-color:DarkGreen;
+}
+
+nav ul li:last-child a {
+  border-bottom: none;
 }
