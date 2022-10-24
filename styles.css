@@ -22,6 +22,14 @@ figure img {
   margin-bottom: 12px;
 }
 
+figure.main-image {
+
+}
+
+figure.section-image {
+  
+}
+
 body {
   color: Green;
   font-family: sans-serif;
