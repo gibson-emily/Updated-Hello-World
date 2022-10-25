@@ -1,14 +1,32 @@
 h1 {
-  color: red;
-  font-family: sans-serif;
+  color: black;
+  font-family: helvetica;
   font-size: 72px;
   margin-top: 0;
   margin-bottom: .125em;
   text-align: center;
 }
 
+h2 {
+  color: black;
+  font-family: helvetica;
+  font-size: 54px;
+  margin-top: 0;
+  margin-bottom: .125em;
+  text-align: center;
+}
+
+h3 {
+  color: black;
+  font-family: helvetica;
+  font-size: 48px;
+  margin-top: 0;
+  margin-bottom: .125em;
+  text-align: center;
+}
+
 p {
-  background: yellow;
+  background: beige;
 }
 
 figure {
@@ -23,41 +41,42 @@ figure img {
 }
 
 figure.main-image {
-
+  background:PaleVioletRed;
+  border-color: : Maroon;
+  color: black;
 }
 
 figure.section-image {
-  
+  float: Center;
+  margin-left: 20px;
+  margin-bottom: 32px;
+  max-width: 320px;
 }
 
 body {
-  color: Green;
-  font-family: sans-serif;
+  color: Black;
+  font-family: helvetica;
   font-size: 24px;
 }
 
 nav ul {
-  background-color: PaleGreen;
+  background-color: PaleVioletRed;
   display: inline-block;
   list-style: none;
   padding-left: 0;
-  border: 5px solid DarkGreen;
-}
-
-nav ul li {
-
+  border: 5px solid Maroon;
 }
 
 nav ul li a {
-  color: black;
+  color: Maroon;
   text-decoration: none;
   padding: 8px;
-  border-bottom: 1px solid DarkGreen;
+  border-bottom: 1px solid Maroon;
   display: block;
 }
 
 nav ul li a:hover {
-  background-color:DarkGreen;
+  background-color:Maroon;
 }
 
 nav ul li:last-child a {
