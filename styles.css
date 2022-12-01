@@ -1,84 +1,110 @@
 h1 {
   color: black;
-  font-family: helvetica;
+  font-family: sans-serif;
   font-size: 72px;
   margin-top: 0;
   margin-bottom: .125em;
   text-align: center;
 }
-
-h2 {
-  color: black;
-  font-family: helvetica;
-  font-size: 54px;
-  margin-top: 0;
-  margin-bottom: .125em;
-  text-align: center;
-}
-
-h3 {
-  color: black;
-  font-family: helvetica;
-  font-size: 48px;
-  margin-top: 0;
-  margin-bottom: .125em;
-  text-align: center;
-}
-
-p {
-  background: beige;
-}
-
 figure {
+  margin: 0;
   border: 5px solid black;
   padding: 30 px
+  padding-bottom: 24px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 figure img {
-  max-width: 100%;
-  height: auto;
   margin-bottom: 12px;
 }
 
 figure.main-image {
-  background:PaleVioletRed;
-  border-color: : Maroon;
+  background:PaleGreen;
+  border-color: : Green;
   color: black;
+  margin-bottom: 32px
 }
 
-figure.section-image {
-  float: Center;
-  margin-left: 20px;
-  margin-bottom: 32px;
-  max-width: 320px;
+@media all and (min-width: 768px)
+  figure.section-image {
+    float: right;
+    margin: -20px -62px 32px 20px;
+    max-width: 320px;
+  }
 }
 
 body {
-  color: Black;
-  font-family: helvetica;
+  color: Green;
+  font-family: sans-serif;
   font-size: 24px;
+  margin: 0;
+}
+
+p {
+  line-height: 1.25;
+  margin-bottom: 1.25em;
+}
+
+.container {
+  width: 96%
+  max-width: 1020px;
+  margin: 0 auto;
 }
 
 nav ul {
-  background-color: PaleVioletRed;
-  display: inline-block;
   list-style: none;
   padding-left: 0;
-  border: 5px solid Maroon;
+}
+
+@media all and (min-width: 376px)
+  nav ul li {
+    display: flex;
+    background-color: PaleGreen;
+    justify-content: center;
+    gap: 30px;
+  }
 }
 
 nav ul li a {
-  color: Maroon;
+  color: black;
   text-decoration: none;
   padding: 8px;
-  border-bottom: 1px solid Maroon;
+  border-bottom: 1px solid DarkGreen;
   display: block;
 }
 
 nav ul li a:hover {
-  background-color:Maroon;
+  background-color:DarkGreen;
 }
 
 nav ul li:last-child a {
   border-bottom: none;
+}
+
+header nav ul {
+  border-top: 1px solid DarkGreen;
+  border-bottom: 1px solid DarkGreen;
+}
+
+footer nav {
+
+}
+
+footer nav ul li a {
+  color: LightGreen;
+}
+
+footer nav ul li a:hover {
+  text-decoration: underline;
+}
+
+footer#page-footer {
+  padding: 32px 0;
+  margin-top: 64px;
+  text-align: center;
+  background-color: LightGreen;
 }
