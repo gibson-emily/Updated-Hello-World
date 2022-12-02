@@ -44,6 +44,30 @@ body {
   margin: 0;
 }
 
+#message {
+  background: LightPink;
+  border: 1px solid red;
+  padding: 20px 40px;
+  margin: 12px 0;
+  border-radius: 4px;
+  opacity: 1;
+  transition: opacity .2s ease;
+}
+
+#message.dismissed {
+  opacity: 0;
+  height: 0;
+}
+
+#message button {
+  float: right;
+}
+
+body.dark-mode {
+  background: Black;
+  color: White;
+  }
+
 p {
   line-height: 1.25;
   margin-bottom: 1.25em;
