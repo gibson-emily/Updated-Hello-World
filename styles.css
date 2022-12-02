@@ -65,8 +65,8 @@ body {
 
 body.dark-mode {
   background: Black;
-  color: White;
-  }
+  color: Gray;
+}
 
 p {
   line-height: 1.25;
